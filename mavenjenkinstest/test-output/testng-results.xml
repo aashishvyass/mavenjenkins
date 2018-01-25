@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9728" started-at="2018-01-25T21:22:24Z" finished-at="2018-01-25T21:22:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9728" started-at="2018-01-25T21:22:24Z" finished-at="2018-01-25T21:22:34Z">
+      <class name="RTPL.mavenjenkinstest.Exp">
+        <test-method status="PASS" signature="testgooglrsearch()[pri:0, instance:RTPL.mavenjenkinstest.Exp@3bfdc050]" name="testgooglrsearch" duration-ms="9714" started-at="2018-01-26T02:52:24Z" finished-at="2018-01-26T02:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgooglrsearch -->
+      </class> <!-- RTPL.mavenjenkinstest.Exp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
