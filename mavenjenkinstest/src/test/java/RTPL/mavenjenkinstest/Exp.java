@@ -1,5 +1,7 @@
 package RTPL.mavenjenkinstest;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.WebDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,10 +10,10 @@ import org.testng.annotations.Test;
 
  public class Exp
  {
-//Testfdfdf 
+//
 @Test
 public void testgooglrsearch(){
-	//System.setProperty("webdriver.gecko.driver", "F://geckodriver-v0.13.0-win64//geckodriver.exe");
+	/*//System.setProperty("webdriver.gecko.driver", "F://geckodriver-v0.13.0-win64//geckodriver.exe");
 
 	System.setProperty("webdriver.chrome.driver", "F://MY DOWNLOADS//chromedriver_win32//chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
@@ -34,7 +36,9 @@ Assert.assertEquals(Actualtitle, Expectedtitle);
 //print out the result
 
 System.out.println("After Assertion " + Expectedtitle + Actualtitle + " Title matched ");
-
+*/
+	
+	Assert.assertEquals("str", "rr");
  }
 
 }//hellofromashishddgfgd
